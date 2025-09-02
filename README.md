@@ -1,4 +1,4 @@
-[![Python](https://img.shields.io/badge/Python-v3.11.13-3776AB?style=plastic&logo=python&logoColor=white)](https://www.python.org/)
+[![Python](https://img.shields.io/badge/Python-v3.12.9-3776AB?style=plastic&logo=python&logoColor=white)](https://www.python.org/)
 [![Docker](https://img.shields.io/badge/Docker-image-2496ED?style=plastic&logo=docker&logoColor=white)](https://www.docker.com/)
 [![Streamlit](https://img.shields.io/badge/Streamlit-v1.45.1-FF4B4B?style=plastic&logo=streamlit&logoColor=white)](https://docs.streamlit.io/)
 [![joblib](https://img.shields.io/badge/joblib-v1.5.1-9C27B0?style=plastic)](https://joblib.readthedocs.io/)
@@ -19,11 +19,15 @@ and obtain DT predictions through an intuitive web interface.
 The app is deployed online via **Streamlit Cloud** at:<br/>
 <https://logpredictionwebapp2-qs3gkpoatwjppsfqxfwcdl.streamlit.app/>.<br/>
 
--    This code is based on <https://github.com/andymcdgeo/Petrophysics-Python-Series/blob/master/29%20-%20Random%20Forest%20for%20Regression%20-%20Prediction%20of%20Continuous%20Well%20Logs-Copy1.ipynb>
+-    This code is based on this  [link](https://github.com/andymcdgeo/Petrophysics-Python-Series/blob/master/29%20-%20Random%20Forest%20for%20Regression%20-%20Prediction%20of%20Continuous%20Well%20Logs-Copy1.ipynb).
+
 -    There is an Arabic explanation of the entire code on my YouTube channel via this link
 <https://www.youtube.com/watch?v=Jo6HKazZyzU>
-
-------------------------------------------------------------------------
+<div align="center">
+  <a href="https://www.youtube.com/@AI_Horizons_Arabic" target="_blank">
+    <img src="https://img.shields.io/static/v1?message=Youtube&logo=youtube&label=&color=FF0000&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="youtube logo"  />
+  </a>
+</div>
 
 ## Table of Contents
 
@@ -146,15 +150,17 @@ To run the application locally, follow these steps:
 
 ## Deployment
 
-The app is hosted on **Streamlit Cloud** for online access: - **URL**:
-<https://logpredictionwebapp2-qs3gkpoatwjppsfqxfwcdl.streamlit.app/> -
-**Setup**: - The repository (`app.py`, `requirements.txt`) is linked to
-Streamlit Cloud. - The model (`cmodel.pkl`) is downloaded from Google
-Drive at runtime. - Streamlit Cloud manages dependencies and hosting.
+The app is hosted on **Streamlit Cloud** for online access: - <br/>
 
-To deploy your own version: 1. Fork or clone the repository. 2. Create a
-Streamlit Cloud account and link your GitHub repository. 3. Configure
-the app settings (e.g., Python version (3.12.9), `requirements.txt`). 4. Deploy
+**URL**:
+<https://logpredictionwebapp2-qs3gkpoatwjppsfqxfwcdl.streamlit.app/> -<br/>
+**Setup**:<br/> - The repository (`app.py`, `requirements.txt`) is linked to
+Streamlit Cloud. <br/>- The model (`cmodel.pkl`) is downloaded from Google
+Drive at runtime. <br/>- Streamlit Cloud manages dependencies and hosting.
+<br/>
+To deploy your own version: <br/>1. Fork or clone the repository. <br/>2. Create a
+Streamlit Cloud account and link your GitHub repository. <br/>3. Configure
+the app settings (e.g., Python version (3.12.9), `requirements.txt`). <br/>4. Deploy
 and access the public URL provided by Streamlit Cloud.
 
 ------------------------------------------------------------------------
