@@ -1,3 +1,13 @@
+[![Python](https://img.shields.io/badge/Python-v3.11.13-3776AB?style=plastic&logo=python&logoColor=white)](https://www.python.org/)
+[![Docker](https://img.shields.io/badge/Docker-image-2496ED?style=plastic&logo=docker&logoColor=white)](https://www.docker.com/)
+[![Streamlit](https://img.shields.io/badge/Streamlit-v1.45.1-FF4B4B?style=plastic&logo=streamlit&logoColor=white)](https://docs.streamlit.io/)
+[![joblib](https://img.shields.io/badge/joblib-v1.5.1-9C27B0?style=plastic)](https://joblib.readthedocs.io/)
+[![NumPy](https://img.shields.io/badge/NumPy-v2.2.6-013243?style=plastic&logo=numpy&logoColor=white)](https://numpy.org/)
+[![pandas](https://img.shields.io/badge/pandas-v2.2.3-150458?style=plastic&logo=pandas&logoColor=white)](https://pandas.pydata.org/)
+[![scikit-learn](https://img.shields.io/badge/scikit--learn-v1.7.1-F7931E?style=plastic&logo=scikitlearn&logoColor=white)](https://scikit-learn.org/stable/)
+[![gdown](https://img.shields.io/badge/gdown-v5.2.0-4CAF50?style=plastic)](https://github.com/wkentaro/gdown)
+
+
 # Well Log DT Prediction Web App
 
 A Streamlit-based web application that uses a Random Forest
@@ -6,8 +16,8 @@ model to predict **DT (sonic transit time)** from well log measurements
 petroleum engineers and geoscientists to input well log data manually
 and obtain DT predictions through an intuitive web interface.
 
-The app is deployed online via **Streamlit Cloud** at:
-<https://logpredictionwebapp2-qs3gkpoatwjppsfqxfwcdl.streamlit.app/>.
+The app is deployed online via **Streamlit Cloud** at:<br/>
+<https://logpredictionwebapp2-qs3gkpoatwjppsfqxfwcdl.streamlit.app/>.<br/>
 
 -    This code is based on <https://github.com/andymcdgeo/Petrophysics-Python-Series/blob/master/29%20-%20Random%20Forest%20for%20Regression%20-%20Prediction%20of%20Continuous%20Well%20Logs-Copy1.ipynb>
 -    There is an Arabic explanation of the entire code on my YouTube channel via this link
